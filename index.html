@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>CTM Big Data - DT</title>
+
+    <script language="javascript" type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/sql-wasm.js"></script>
+    <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/codemirror.min.js"></script>
+
+    <script language="javascript" type="text/javascript" src="JS/JS.js"></script>
+    <script language="javascript" type="text/javascript" src="JS/helper.js"></script>
+    <link rel="stylesheet" href="CSS/CSS.css">
+
+  </head>
+
+  <body>
+
+    <label class="button">Load an SQLite database file: <input type='file' id='dbfile'></label>
+    <div>
+      <canvas id="Chart1_1"></canvas>
+    </div>
+
+    <script>
+      initializeDB();
+    </script>
+
+  </body>
+
+</html>
